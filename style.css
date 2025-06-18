@@ -16,6 +16,14 @@ body {
   text-align: center;
 }
 
+/* Subtitle under hero heading */
+.subtitle {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 10px;
+  color: #f0f0f0;
+}
+
 /* Intro Paragraph Styling */
 .intro {
   max-width: 1000px;

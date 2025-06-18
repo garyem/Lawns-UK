@@ -6,11 +6,11 @@ body {
 }
 
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1501520158826-76df880863a3?q=80&w=1740&auto=format&fit=crop');
+  background-image: url("https://images.unsplash.com/photo-1501520158826-76df880863a3?q=80&w=1740&auto=format&fit=crop");
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 180px 20px;
+  padding: 180px 20px; /* taller hero */
   text-align: center;
 }
 
@@ -20,8 +20,14 @@ main {
   margin: 0 auto;
 }
 
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 table {
   width: 100%;
+  min-width: 600px; /* ensures it's scrollable on small screens */
   border-collapse: collapse;
   margin-top: 30px;
 }
